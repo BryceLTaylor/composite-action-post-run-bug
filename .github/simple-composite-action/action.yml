@@ -1,0 +1,9 @@
+name: 'a composite action'
+description: 'that breaks things'
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Say something"
+      shell: bash
+      run: echo "this composite action is working"
