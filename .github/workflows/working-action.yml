@@ -1,0 +1,10 @@
+name: action that works
+
+on:
+  workflow_dispatch:
+
+jobs:
+  say-working:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "this workflow runs correctly"
