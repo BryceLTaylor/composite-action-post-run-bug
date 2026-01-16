@@ -7,3 +7,4 @@ runs:
     - name: Say something"
       shell: bash
       run: echo "this composite action is working"
+    - uses: actions/setup-node@v4
